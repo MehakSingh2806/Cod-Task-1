@@ -1,0 +1,62 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: url('https://source.unsplash.com/1600x900/?quiz,education') no-repeat center center/cover;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 16px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group {
+  list-style: none;
+  padding: 0;
+}
+
+.btn-group li {
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.correct {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.wrong {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+}
